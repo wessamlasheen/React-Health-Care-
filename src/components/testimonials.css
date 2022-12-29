@@ -1,0 +1,53 @@
+.testimonials {
+}
+.testimonials .container {
+  text-align: center;
+}
+.testimonials .container .main-heading {
+  margin-left: auto;
+  margin-right: auto;
+}
+.testimonials .container .sub-heading {
+  margin-left: auto;
+  margin-right: auto;
+}
+.testimonials .container .testi-img {
+  position: relative;
+}
+.testimonials .container .testi-img ul {
+}
+.testimonials .container .testi-img ul li {
+  display: inline-block;
+  position: absolute;
+}
+.testimonials .container .testi-img ul li img {
+  width: 60px;
+  border-radius: 50%;
+}
+.testimonials .container .testi-img ul li:first-child {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.testimonials .container .testi-img ul li:nth-child(2) {
+  top: 100px;
+  right: 20px;
+}
+.testimonials .container .testi-img ul li:nth-child(3) {
+  right: 30px;
+  bottom: 110px;
+}
+.testimonials .container .testi-img ul li:nth-child(4) {
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.testimonials .container .testi-img ul li:nth-child(5) {
+  left: 30px;
+  bottom: 110px;
+}
+.testimonials .container .testi-img ul li:nth-child(6) {
+  top: 100px;
+  left: 20px;
+}

@@ -1,0 +1,74 @@
+.booking {
+}
+.booking .container {
+  background-color: #ededf9;
+  border-radius: 30px;
+  padding: 50px;
+}
+.booking .appointment-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: -10px -10px #ededf9, -10px -10px 0 2px var(--blue-alt-color);
+}
+.booking .appointment-form h2 {
+  color: var(--blue-alt-color);
+  margin-bottom: 30px;
+}
+.booking .appointment-form input,
+.booking .appointment-form select {
+  border: 1px solid #d8d8f9;
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #444;
+}
+input:focus,
+select:focus {
+  outline: 1px solid var(--blue-alt-color);
+}
+select::-ms-expand {
+  display: none;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+.booking .appointment-form button {
+  background-color: var(--main-orange-color);
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 35px;
+  transition: 0.3s;
+}
+.booking .appointment-form button:hover {
+  background-color: var(--orange-alt-color);
+}
+
+.booking .appointment-thumb {
+  position: relative;
+  max-width: 100%;
+}
+.booking .appointment-thumb .phone {
+  max-width: 100%;
+}
+.booking .appointment-thumb .img-group .girl {
+  max-width: 40%;
+  position: absolute;
+  right: 10px;
+  bottom: 14px;
+  animation: girl infinite 1s alternate;
+}
+@keyframes girl {
+  0% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

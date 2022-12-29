@@ -1,0 +1,72 @@
+.carousel-data {
+  background-color: var(--main-orange-color);
+  padding: 60px 40px;
+  text-align: left;
+  border-radius: 40px;
+  border-top-right-radius: 0;
+  position: relative;
+}
+.carousel-data::after {
+  content: ",,";
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 92px;
+  color: rgb(255, 255, 255);
+  opacity: 0.3;
+  line-height: 92px;
+}
+.carousel-data .carousel-text {
+  line-height: 28px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.carousel-data h4 {
+  color: #fff;
+}
+.carousel-data span {
+  color: #fff;
+  font-weight: 500;
+}
+.carousel-indicators {
+  top: 100% !important;
+  display: none !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  height: 50px;
+  width: 50px !important;
+  border-radius: 12px;
+  background-color: #ffe4d5 !important;
+  color: #f17732 !important;
+  font-size: 24px;
+  bottom: -70px !important;
+  top: auto !important;
+  opacity: 1 !important;
+  transition: all 0.5s;
+}
+.carousel-control-next {
+  left: 62px !important;
+}
+.slider {
+  position: relative;
+}
+.slider svg {
+  font-size: 36px;
+  color: #f17732;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  background-color: #fff;
+  line-height: 75px;
+  border-radius: 20px;
+  box-shadow: 0 10px 60px 0 rgb(31 34 120 / 10%);
+  position: absolute;
+  top: -45px;
+  left: 50px;
+}

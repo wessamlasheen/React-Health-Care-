@@ -1,13 +1,49 @@
-body {
+:root {
+  --blue-main-color: #5559ce;
+  --blue-alt-color: #4548a6;
+  --main-orange-color: #f17732;
+  --orange-alt-color: #fa9d68;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Tajawal", sans-serif;
+  background-color: #f6f5f5 !important;
+  color: #444;
+}
+a {
+  text-decoration: none !important;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+section {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 40px 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* general component styles */
+.main-heading {
+  width: fit-content;
+  padding: 0 10px;
+  color: var(--main-orange-color);
+  background: url(./imgs/orangHeading.png);
+  margin-bottom: 10px;
+}
+.sub-heading {
+  color: var(--blue-main-color);
+  font-weight: bold;
+  margin-bottom: 40px;
 }

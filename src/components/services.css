@@ -1,0 +1,156 @@
+.services {
+  position: relative;
+  margin: 150px 0;
+  background-color: #eee;
+}
+.services::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--blue-alt-color);
+  width: 48%;
+  height: 140%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+@media only screen and (max-width: 980px) {
+  .services:after {
+    display: none;
+  }
+  .services {
+    background-color: var(--blue-alt-color);
+    margin: 0;
+  }
+  .services .services-info p,
+  .services .services-info .secondary {
+    color: #fff !important;
+  }
+  .services .services-info button {
+    margin-top: 15px !important;
+  }
+}
+.services .container {
+}
+.services .services-info {
+  margin-bottom: 20px;
+}
+.services .services-info .sub-heading {
+  margin-bottom: 10px;
+}
+.services .services-info .secondary {
+  color: var(--blue-alt-color);
+  font-weight: bold;
+  font-size: 40px;
+}
+.services .services-info p {
+  color: rgb(81, 80, 80);
+  font-weight: 500;
+  margin: 20px 0;
+}
+.services .services-info button {
+  background-color: var(--main-orange-color);
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 35px;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+.services .services-info button:hover {
+  background-color: var(--orange-alt-color);
+}
+.services-carousel {
+  position: relative;
+  z-index: 999;
+}
+.services .services-carousel {
+}
+.services .services-carousel .card {
+  width: 260px;
+  border: 0;
+  border-radius: 20px;
+  padding: 25px 40px;
+}
+.services .services-carousel .card .icon {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #e1e2f6;
+  border-radius: 13px;
+  background-color: #fff;
+}
+.services .services-carousel .card .icon svg {
+  color: var(--blue-alt-color);
+  width: 50px;
+  height: 50px;
+}
+.services .services-carousel .card .card-title {
+  color: var(--blue-alt-color);
+  font-weight: bold;
+  font-size: 30px;
+}
+.services .services-carousel .card .card-text {
+  font-weight: 500;
+  color: #444;
+}
+
+.services .services-carousel .card button {
+  background-color: #e1e2f6;
+  color: #565acf;
+  border: 2px solid #e1e2f6;
+  border-radius: 8px;
+  font-weight: 600;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 999;
+  transition: 0.5s;
+}
+.services .services-carousel .card:hover button {
+  background-color: var(--blue-alt-color);
+  color: #fff;
+}
+.services .services-carousel .card:hover .icon svg {
+  color: rgb(252, 198, 126);
+  animation: move 0.3s linear;
+}
+@keyframes move {
+  0% {
+    transform: translateX(5px);
+  }
+  10% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-5px);
+  }
+  30% {
+    transform: translateX(0px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  70% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  90% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-5px);
+  }
+}
