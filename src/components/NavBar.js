@@ -17,7 +17,7 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" ms-auto gap-2">
-            <Link to="/" className="link nav-active">
+            <Link to="/React-Health-Care-" className="link nav-active">
               Home
             </Link>
             <NavDropdown

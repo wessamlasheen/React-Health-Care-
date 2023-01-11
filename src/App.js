@@ -11,7 +11,7 @@ function App() {
     <div>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/React-Health-Care-" element={<Home />} />
         <Route path="/about" element={<Aboutus />} />
       </Routes>
     </div>
