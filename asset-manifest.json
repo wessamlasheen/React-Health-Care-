@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Health-Care-/static/css/main.c37f092f.css",
-    "main.js": "/React-Health-Care-/static/js/main.e2842dec.js",
+    "main.js": "/React-Health-Care-/static/js/main.f21c7fa2.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-Health-Care-/static/js/787.28cb0dcd.chunk.js",
     "static/media/banner.png": "/React-Health-Care-/static/media/banner.7c2bc96d67d3eba1d64a.png",
     "static/media/pic1.jpg": "/React-Health-Care-/static/media/pic1.a3848a1189e2114e1b47.jpg",
@@ -18,11 +18,11 @@
     "static/media/slick.woff": "/React-Health-Care-/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/React-Health-Care-/index.html",
     "main.c37f092f.css.map": "/React-Health-Care-/static/css/main.c37f092f.css.map",
-    "main.e2842dec.js.map": "/React-Health-Care-/static/js/main.e2842dec.js.map",
+    "main.f21c7fa2.js.map": "/React-Health-Care-/static/js/main.f21c7fa2.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-Health-Care-/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c37f092f.css",
-    "static/js/main.e2842dec.js"
+    "static/js/main.f21c7fa2.js"
   ]
 }
